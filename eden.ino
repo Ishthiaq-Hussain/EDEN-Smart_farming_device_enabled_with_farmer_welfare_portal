@@ -1,9 +1,3 @@
-//#include <FirebaseESP32.h>
-
-
-
-
-
 
 #include <WiFi.h>                                                    // esp8266 library
 #include <SoftwareSerial.h>
@@ -13,8 +7,8 @@
 #define FIREBASE_HOST "eden-database.firebaseio.com"                          // the project name address from firebase id
 #define FIREBASE_AUTH "5quXnqe59W3vq7zn4yrENq7MXcN5JphvDcf7vBl0"            // the secret key generated from firebase
 
-const char* WIFI_SSID="Madhu";                                             // input your home or public wifi name 
-const char* WIFI_PASSWORD="12345678";                                   //password of wifi ssid
+const char* WIFI_SSID="WIFI NAME";                                             // input your home or public wifi name 
+const char* WIFI_PASSWORD="PASSWORD";                                   //password of wifi ssid
  
 #define DHTPIN 27                                                           // what digital pin we're connected to
 #define DHTTYPE DHT11                                                       // select dht type as DHT 11 or DHT22
@@ -117,8 +111,6 @@ void loop() {
   String firemoist = String(moisture_percentage) + String("%");
   String fireldr = String(val);
   Serial.println(ratio);
-  //Serial.print("percentage:");
-  //Serial.print(percentage);
   Serial.print("Co2 concentration in air= ");
   Serial.println(ppm);
   String firegas = String(ppm) + String("ppm");
