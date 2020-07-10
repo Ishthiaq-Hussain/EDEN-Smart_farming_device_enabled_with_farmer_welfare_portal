@@ -5,6 +5,7 @@
   
 ## Developed_prototype
 ![Alt-text](https://github.com/Ishthiaq-Hussain/EDEN-Smart_farming_device_enabled_with_farmer_welfare_portal/blob/master/untitled.png)
+![Alt-text](https://github.com/Ishthiaq-Hussain/EDEN-Smart_farming_device_enabled_with_farmer_welfare_portal/blob/master/eden%20v7%20(2).png)
 ![Alt-text](https://github.com/Ishthiaq-Hussain/EDEN-Smart_farming_device_enabled_with_farmer_welfare_portal/blob/master/wHOLE.png)
 
 ## Block_diagram
